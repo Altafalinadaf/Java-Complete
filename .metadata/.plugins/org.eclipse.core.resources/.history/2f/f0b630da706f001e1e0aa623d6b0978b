@@ -1,0 +1,20 @@
+package ExceptionHandling;
+
+
+public class printStackTrace {
+	static void disp3() {
+		int arr[]= {1,23,43,53};
+	}
+	static void disp2() {
+		disp3();
+	}
+	static void disp1() {
+		disp2();
+	}
+	public static void main(String[] args) {
+		try {
+			System.out.println();
+		}
+	}
+
+}

@@ -1,0 +1,13 @@
+package ExceptionHandling;
+
+public class FinallyBlock {
+	public static void main(String[] args) {
+		try {
+			int a=1/2;
+		}
+		finally {
+			System.out.println("It's finally block ");
+		}
+	}
+
+}

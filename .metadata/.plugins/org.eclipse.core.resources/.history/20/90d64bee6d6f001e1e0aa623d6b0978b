@@ -1,0 +1,14 @@
+package ExceptionHandling;
+
+public class Example3 {
+	public static void main(String[] args) {
+		int arr[]= {1,23,43,53};
+		try {
+			System.out.println(arr[9]);
+		}
+		catch (ArithmeticException e) {
+			// TODO: handle exception
+		}
+	}
+
+}
